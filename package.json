@@ -1,0 +1,30 @@
+{
+  "name": "ig-monitor",
+  "version": "1.0.0",
+  "description": "A Discord bot that monitors Instagram accounts for ban and unban status changes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "instagram",
+    "monitor",
+    "ban-watch"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "insta-fetcher": "^1.3.35"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
